@@ -1,0 +1,203 @@
+body {
+    padding: 20px;
+    font-family: "Roboto", serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header li {
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__logo {
+    font-size: 18px;
+}
+
+.header__phone {
+    font-weight: 800;
+}
+
+.active {
+    background-color: #F9F5E3;
+    border-radius: 5px;
+}
+
+.main h1 {
+    font-size: 48px;
+}
+
+.promo {
+    margin-bottom: 40px;
+}
+
+.promo img {
+    width: 100%;
+    height: auto;
+}
+
+.promo a {
+    color: #0066FF;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.description img {
+    width: 48%;
+    height: auto;
+}
+
+.description div {
+    width: 48%;
+}
+
+.description a {
+    color: #0066FF;
+}
+
+.description p {
+    width: 390px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.advantages {
+    display: flex;
+    padding: 25px;
+    background-color: #F9F5E3;
+
+}
+
+.advantages img {
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.advantages ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 200px;
+
+}
+
+.advantages li {
+    width: 270px;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.advantages li b {
+    font-size: 24px;
+}
+
+.advantages li p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.advantages a {
+    color: #0066FF;
+}
+
+.problem {
+    margin-bottom: 25px;
+}
+
+.problem p {
+    font-size: 18px;
+    line-height: 27px;
+    width: 70%;
+}
+
+.sources {
+    display: flex;
+    margin-bottom: 140px;
+}
+
+.sources ul {
+    margin: 0;
+    padding: 0;
+
+    margin-right: 140px;
+}
+
+.sources li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.sources a {
+    color: #0066FF;
+}
+
+.footer {
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div:first-child {
+    margin-bottom: 10px;
+}
+
+.footer div {
+    font-size: 14px;
+}
+
+.footer div:first-child span {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer__school {
+    font-weight: 300;
+}
+
+.footer a[href="#"] {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer__phone{
+    font-size: 14px;
+    font-weight: 500;
+}
