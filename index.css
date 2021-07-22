@@ -6,6 +6,15 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    margin-bottom: 4px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -51,6 +60,7 @@ a {
 
 .main h1 {
     font-size: 48px;
+    margin-bottom: 21px;
 }
 
 .promo {
@@ -60,6 +70,7 @@ a {
 .promo img {
     width: 100%;
     height: auto;
+    margin-bottom: 5px;
 }
 
 .promo a {
@@ -128,7 +139,9 @@ a {
 }
 
 .advantages li b {
+    display: inline-block;
     font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .advantages li p {
@@ -148,6 +161,7 @@ a {
     font-size: 18px;
     line-height: 27px;
     width: 70%;
+    margin-bottom: 25px;
 }
 
 .sources {
