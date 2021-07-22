@@ -72,6 +72,10 @@ a {
     margin-bottom: 50px;
 }
 
+.description h2 {
+    margin-top: 0;
+}
+
 .description img {
     width: 48%;
     height: auto;
