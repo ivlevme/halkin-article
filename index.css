@@ -77,7 +77,6 @@ p {
 
 .promo__img {
   width: 100%;
-  margin-bottom: 2px;
 }
 
 .promo__img-description {
@@ -112,11 +111,15 @@ p {
   letter-spacing: -0.2px;
 }
 
+.descrtiption__link {
+  color: #0066ff;
+}
+
 .advantages {
   display: flex;
   padding-bottom: 6px;
   background-color: #f9f5e3;
-  margin-bottom: 49px;
+  margin-bottom: 45px;
 }
 
 .advantages__img {
@@ -128,7 +131,7 @@ p {
 
 .advantages__list {
   margin: 0;
-  padding: 25px 0 0 13px;
+  padding: 27px 0 0 13px;
 
   display: flex;
   justify-content: space-between;
@@ -139,7 +142,7 @@ p {
   width: 287px;
   margin: 0;
   padding: 0;
-  margin-bottom: 37px;
+  margin-bottom: 41px;
 
   line-height: 137%;
 
@@ -150,7 +153,7 @@ p {
   font-size: 24px;
 
   display: inline-block;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .advantages__list-item p {
@@ -160,7 +163,7 @@ p {
 }
 
 .problem {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 .problem__title {
@@ -179,7 +182,7 @@ p {
   letter-spacing: -0.2px;
 
   width: 872px;
-  margin-bottom: 53px;
+  margin-bottom: 52px;
 }
 
 .sources {
@@ -187,7 +190,7 @@ p {
   letter-spacing: -0.2px;
 
   display: flex;
-  margin-bottom: 132px;
+  margin-bottom: 130px;
 }
 
 .sources__list {
