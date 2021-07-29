@@ -1,96 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
     <title>Шерстяные вещи безопасны: отбор, очистка и изготовление</title>
-</head>
-<body>
-<header class="header">
-    <a class="header__logo" href="#">Вязань</a>
-    <ul>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li class="active"><a href="#">Новости</a></li>
-        <li><a href="#">Шерстяные изделия</a></li>
-    </ul>
-    <a class="header__phone" href="tel:+74951221355">+7 (495) 122-13-55</a>
-</header>
-<main class="main">
-    <section class="promo">
-        <h1>Шерстяные вещи безопасны: <br> отбор, очистка и изготовление</h1>
-        <img src="img/promo.png" alt="Фото: Наши овцы на теплых рязанских лугах">
-        <a href="https://www.youtube.com/watch?v=0Hr4NeiUvQA">Наши овцы на теплых рязанских лугах</a>
-    </section>
-    <section class="description">
-        <img src="img/description.png" alt="Фото: Как проходит сбор">
-        <div>
-            <h2>Как проходит сбор</h2>
-            <p>В среднем каждая овца дает шерсть раз в 2 месяца.
-                В цеху проверки шерсти выполняется качественный отбор собранных экземпляров,
-                после чего эксперты проводят очистку по стандарту <a href="https://docs.cntd.ru/document/1200020382">ГОСТ 20576-88</a></p>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="#">Вязань</a>
+      <ul class="header__menu menu">
+        <li class="menu__item"><a href="#">Доставка</a></li>
+        <li class="menu__item"><a href="#">Контакты</a></li>
+        <li class="menu__item menu__item--active"><a href="#">Новости</a></li>
+        <li class="menu__item"><a href="#">Шерстяные изделия</a></li>
+      </ul>
+      <a class="header__phone" href="tel:+74951221355">+7 (495) 122-13-55</a>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <h1 class="promo__title">
+          Шерстяные вещи безопасны: <br />
+          отбор, очистка и изготовление
+        </h1>
+        <img
+          class="promo__img"
+          src="img/promo.png"
+          alt="Фото: Наши овцы на теплых рязанских лугах"
+        />
+        <a
+          class="promo__img-description link"
+          href="https://www.youtube.com/watch?v=0Hr4NeiUvQA"
+          >Наши овцы на теплых рязанских лугах</a
+        >
+      </section>
+      <section class="description">
+        <img
+          class="description__img"
+          src="img/description.png"
+          alt="Фото: Как проходит сбор"
+        />
+        <div class="description__content">
+          <h2 class="description__title">Как проходит сбор</h2>
+          <p class="descrtiption__text">
+            В&nbsp;среднем каждая овца дает шерсть раз в&nbsp;2&nbsp;месяца.
+            В&nbsp;цеху проверки шерсти выполняется качественный отбор собранных
+            экземпляров, после чего эксперты проводят очистку по&nbsp;стандарту
+            <a
+              class="descrtiption__link"
+              href="https://docs.cntd.ru/document/1200020382"
+              >ГОСТ 20576-88</a
+            >
+          </p>
         </div>
-    </section>
-    <section class="advantages">
-        <ul>
-            <li>
-                <b>Сортировка</b>
-                <p>Сортировка производится по качеству шерсти, длинне и чистоте</p>
-            </li>
-            <li>
-                <b>Чистка</b>
-                <p>При обработке устраняется грязь, прилипшая кожа, а также жир животных</p>
-            </li>
-            <li>
-                <b>Промывка</b>
-                <p>Для удаления бактерий, вирусов а также жира с шерсти животных, используются бани «Вязани»</p>
-            </li>
-            <li>
-                <b>Сушка</b>
-                <p>Сушильные машины делают шерсть мягкой, затем шерсть передается на вязку</p>
-            </li>
+      </section>
+      <section class="advantages">
+        <ul class="advantages__list">
+          <li class="advantages__list-item">
+            <b>Сортировка</b>
+            <p>
+              Сортировка производится по&nbsp;качеству шерсти, длинне
+              и&nbsp;чистоте
+            </p>
+          </li>
+          <li class="advantages__list-item">
+            <b>Чистка</b>
+            <p>
+              При обработке устраняется <br />
+              грязь, прилипшая кожа, а&nbsp;также жир животных
+            </p>
+          </li>
+          <li class="advantages__list-item">
+            <b>Промывка</b>
+            <p>
+              Для удаления бактерий, <br />
+              вирусов а&nbsp;также жира с&nbsp;шерсти животных, используются
+              бани &laquo;Вязани&raquo;
+            </p>
+          </li>
+          <li class="advantages__list-item">
+            <b>Сушка</b>
+            <p>
+              Сушильные машины <br />
+              делают шерсть мягкой, <br />
+              затем шерсть передается на&nbsp;вязку
+            </p>
+          </li>
         </ul>
         <div>
-            <img src="img/advantages.png" alt="Фото: Прямой эфир с завода «Вязань»">
-            <a href="#">Прямой эфир с завода «Вязань»</a>
+          <img
+            class="advantages__img"
+            src="img/advantages.png"
+            alt="Фото: Прямой эфир с завода «Вязань»"
+          />
+          <a class="link" href="#">Прямой эфир с завода «Вязань»</a>
         </div>
-    </section>
-    <section class="problem">
-        <h2>Почему вы чешитесь?</h2>
-        <p>Наши овцы пасутся на зеленых лугах Казани, получая все необходимо для качественной и крепкой шерсти. Перед
-            изготовлением, проводятся 6 полноценных этапов подготовки шерсти. Но почему же мы еще ощущаем небольшую
-            колкость во время носки зимними вечерами?</p>
-        <p>Тонкое и грубое шерстяное волокно толще по сравнению с хлопком, полиэстером и шерстью альпаки. Конечно части
-            тела будут чесаться, но это не является аллергической реакцией, это было доказано исследователями из штата
-            Джорджия в 2019 и 2021 году.</p>
-    </section>
-    <section class="sources">
-        <ul>
-            <li>Исследование</li>
-            <li><a href="https://allergycertified.com/blog/2019/01/07/chemical-of-the-month-lanolin/">Chemical of the month:
-                AllergyCertified, 2019</a></li>
+      </section>
+      <section class="problem">
+        <h2 class="problem__title">Почему вы чешитесь?</h2>
+        <div class="problem__text-container">
+          <p class="problem__text">
+            Наши овцы пасутся на&nbsp;зеленых лугах Казани, получая все
+            необходимо для качественной и&nbsp;крепкой шерсти. Перед
+            изготовлением, проводятся 6&nbsp;полноценных этапов подготовки
+            шерсти. Но&nbsp;почему&nbsp;же&nbsp;мы еще ощущаем небольшую
+            колкость во&nbsp;время носки зимними вечерами?
+          </p>
+          <p class="problem__text">
+            Тонкое и&nbsp;грубое шерстяное волокно толще по&nbsp;сравнению
+            с&nbsp;хлопком, полиэстером и&nbsp;шерстью альпаки. Конечно части
+            тела будут чесаться, но&nbsp;это не&nbsp;является аллергической
+            реакцией, это было доказано исследователями из&nbsp;штата Джорджия
+            в&nbsp;2019 и&nbsp;2021&nbsp;году.
+          </p>
+        </div>
+      </section>
+      <section class="sources">
+        <ul class="sources__list">
+          <li>Исследование</li>
+          <li>
+            <a
+              href="https://allergycertified.com/blog/2019/01/07/chemical-of-the-month-lanolin/"
+              >Chemical of the month: AllergyCertified, 2019</a
+            >
+          </li>
         </ul>
-        <ul>
-            <li>Исследование</li>
-            <li><a href="https://www.researchgate.net/publication/265893162_A_Review_of_Sheep_Wool_Quality_Traits">The importance and value of wool production from sheep</a></li>
+        <ul class="sources__list">
+          <li>Исследование</li>
+          <li>
+            <a
+              href="https://www.researchgate.net/publication/265893162_A_Review_of_Sheep_Wool_Quality_Traits"
+              >The importance and value of wool production from sheep</a
+            >
+          </li>
         </ul>
-    </section>
-    <footer class="footer">
-        <div>
-            <a href="#">Вязань</a>
-            <span>г. Казань, ул. Вязянь д. 46</span>
+      </section>
+      <footer class="footer">
+        <div class="footer__line">
+          <a class="footer__logo" href="#">Вязань</a>
+          <span class="footer__address">г. Казань, ул. Вязянь д. 46</span>
         </div>
-        <div>
-            <a href="https://bureau.ru" class="footer__school">Сделано в 2021 году в Школе Бюро Горбунова </a>
-            <a class="footer__phone" href="tel:+74951221355">+7 (495) 122-13-55</a>
+        <div class="footer__line">
+          <a href="https://bureau.ru" class="footer__school"
+            >Сделано в 2021 году в Школе Бюро Горбунова
+          </a>
+          <a class="footer__phone" href="tel:+74951221355"
+            >+7 (495) 122-13-55</a
+          >
         </div>
-    </footer>
-</main>
-</body>
+      </footer>
+    </main>
+  </body>
 </html>
